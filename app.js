@@ -1,6 +1,5 @@
 function sendAjax(){
 	var email  = $('#mail').val();
-	var form  = $('#ss-form').val();
 	if(email===''){
 		$('#error').text( "Not valid!" ).show().fadeOut( 1500 );
 	}else{
