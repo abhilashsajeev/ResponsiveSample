@@ -1,3 +1,4 @@
+
 function sendAjax(){
 	var email  = $('#mail').val();
 	if(email===''){
